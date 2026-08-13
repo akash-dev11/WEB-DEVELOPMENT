@@ -1,0 +1,10 @@
+/* font-family => specifies a prioritized list of one or more font family names */
+
+/* font-family:arial;
+font-family:avant garde,didot,sans-serif; */
+/* cssfont.com */
+
+p{
+    text-align: justify;
+    font-family: fantasy;
+}

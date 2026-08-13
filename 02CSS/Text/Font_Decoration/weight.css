@@ -1,0 +1,27 @@
+/* font-weight:normal //400
+font-weight:bold  // 700
+font-weight:100 
+font-weight:bolder 
+font-weight:lighter 
+*/
+
+/* text decoration => Sets the appearance of decorative lines on text like underline */
+/* text-decoration: red underline 
+text-decoration:wavy overline 
+text-decoration: dotted line-through */
+
+
+
+h1{
+    text-align: center;
+    text-decoration: yellow underline;
+}
+
+p{
+    text-align: justify;
+    font-weight: 100;
+}
+
+h2{
+    font-weight: 800;
+}

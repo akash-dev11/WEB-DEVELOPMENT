@@ -1,0 +1,14 @@
+/* text-align: left/start
+ text-align:right/end
+ text-align:center
+ text-align:justify */
+
+
+h1{
+    text-align: center;
+
+}
+
+p{
+    text-align: justify;
+}
