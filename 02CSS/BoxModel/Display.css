@@ -1,0 +1,11 @@
+
+/* Display => it sets whether an element is treated as a block or inline element and the layout used for its children */
+/* display:inline ,  display:block  */
+
+span{
+    /* background-color: pink; */
+    border: 2px solid black;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+}

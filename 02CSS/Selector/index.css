@@ -1,0 +1,55 @@
+/* Universal Selector => to select everything in a document */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Element Selector => Selects all elements of the same type  */
+h1,h3{
+    color: red;
+}
+
+/* ID Selector => Selects an element based on the value of the element's id attribute. */
+#login{
+    background-color: whitef;
+}
+
+#signup{
+    background-color: brown;
+    color: white;
+}
+
+/* Class Selector => Selects an element based on their class attribute.  */
+.upvote{
+    background-color: greenyellow;
+}
+
+/* Descendant Selector => Selects all paragraphs inside divs */
+.post a {
+    color: aqua;
+}
+
+/* Adjacent Sibling Combinator => Heading3 that comes immediately after any paragraph */  
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: blue;
+    color:white;
+}
+
+/* Child Combinator => Selects all buttons which are direct children of spans */
+div>input{
+    background-color: yellow;
+}
+
+/* Attribute Selector => Selects elements based on the presence or value of a given attribute. */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+input[type]{
+    background-color: darksalmon;
+}

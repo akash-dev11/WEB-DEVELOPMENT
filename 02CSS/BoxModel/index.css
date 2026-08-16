@@ -1,0 +1,43 @@
+/* Height => by default it sets the content area height of the element  */
+
+div{
+    height: 200px;
+}
+
+/* width => by default it sets the content area width of the element  */
+div{
+    width: 500px;
+}
+
+/* Border => Used to set an element's border  */
+/* border-width , border-style , border-color  */
+div{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-left: 5px solid #000000;
+    border-radius: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+   border: 2px dashed black;
+   padding: 2px 3px 4px 5px;
+    margin: 0px;
+}
+
+/* Border Sides => to control an individual side of the box  */
+/* border-left,border-right,border-top ,border-bottom  */
+
+/* border-Radius => used to round the corners of an element's outer border edge  */
+/* border-top-right-radius : 5px */
+
+/* Padding => padding-left,padding-right,padding-top,padding-bottom  */
+/* for all 4 sides => padding:50px;,  top&bottom | left&right => padding:1px2px;  */
+/* top|left&right|bottom => padding:1px2px3px;   ,   top|right|bottom|left => padding:1px2px3px4px   */
+
+/* Margin => To set spacing on the outside of border  */
+/* margin-left,margin-right,margin-top,margin-bottom  */
+/* for all 4 sides => margin:50px;,top&bottom|left&right => margin:1px 2px */
+/* top|left&right|bottom => margin:1px2px3px; ,  top|right|bottom|left => margin:1px2px3px4px; */

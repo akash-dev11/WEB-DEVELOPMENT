@@ -1,0 +1,66 @@
+
+/* Pseudo class => A keyword added to a selector that specifies a special state of the selected element 
+*/
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    color: green;
+}
+
+button:active{
+    background-color: pink;
+}
+
+p:active{
+    color: green;
+    font-weight: bold;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+
+.post:nth-of-type(2n){
+    background-color: aquamarine;
+}
+
+/* Pseudo Elements => A keyword added to a selector that lets you style a specific part of the selected element  */
+h1::first-letter{
+    color: green;
+}
+
+p::first-line{
+    color:chartreuse;
+}
+
+p::selection{
+    background-color: yellow;
+}
+
+/* Cascading StyleSheets => Css cascade algorithm's job is to select css declarations in order to determine the correct values for css properties.  */
+h3 {
+    background-color: yellow;
+}
+h3{
+    background-color: blue;
+}
+
+/* Selector Specificity => Specificity is an algorithm that calculates the weight that is applied to a given css declaration. */
+/* Id>class,attribute & pesudo-class > element & pesudo-Element */  
+
+
+
+/* Inline Specificity => Inline styles are more specific than id  */
+/* inlineStyle > id>class>element  */
+
+
+/* !Important => To show the most specific thing in document  */
+div{
+    background-color: black !important;
+}
+
