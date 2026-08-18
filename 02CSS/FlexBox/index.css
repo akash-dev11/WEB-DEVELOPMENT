@@ -1,0 +1,30 @@
+
+/* Flexbox => It is a one-dimensional layout method for arranging items in rows or columns.  */ 
+
+/* direction => it sets how flex items are placed in the flex container, along which axis and direction.  */
+/* flexbox-direction:row ;, main axis , left to right  */
+/* flexbox-direction:row-reverse; main axis, right to left  */
+/* flexbox-direction : column ; main axis , top to bottom  */
+/* flexbox-direction : column-reverse;  main axis , bottom to top  */
+
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

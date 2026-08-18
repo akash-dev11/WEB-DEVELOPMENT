@@ -1,0 +1,36 @@
+
+
+/* Justify Content => Tells how the browser distributes space between and around content items along the main-axis  */
+/* justify-content:flex-start,flex-end,center,space-between,   */
+
+
+
+/* Flex Wrap => Sets whether flex items are forced onto one line or can wrap onto multiple lines  */
+/* flex-wrap : nowrap;, wrap; , wrap-reverse;  */
+
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    flex-wrap:wrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

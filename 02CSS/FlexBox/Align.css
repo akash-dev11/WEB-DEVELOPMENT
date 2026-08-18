@@ -1,0 +1,50 @@
+
+/* Align items => Distributes our items along the cross axis  */
+/* align-items:flex-start;,flex-end;,center;,  */
+
+
+/* Align Content => it sets the distribution of space between and around content items along a flexbox's cross-axis  */
+/* align-content:flex-start/flex-end/center  */
+/* align-content:space-between/space-around/evenly  */
+/* aling-content: baseline; */ 
+
+
+/* Align-self => Aligns an item along the cross axis  */
+/* align-self: flex-start/flex-end/center/baseline;  */
+
+#container{
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap:wrap; */
+    /* align-items: flex-start; */
+    /* align-items: baseline; */
+    /* align-content: flex-start ; */
+    align-content:flex-start ;
+    /* align-self: flex-start; */
+
+}
+
+#org{
+    align-self: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

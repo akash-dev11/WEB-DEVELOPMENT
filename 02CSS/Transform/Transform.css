@@ -1,0 +1,53 @@
+
+/* Transform => This property lets you rotate,scale,skew,or translate an element.  */
+/* transform:rotate(45deg); */
+
+section{
+    margin-top: 100px;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color:#7aa874 ;
+    border: 2px solid black;
+    margin: 10px auto;
+
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+#one {
+    transform: rotate(45deg);
+}
+
+/* Scale => transform:scale(0.5); */
+
+#two {
+    /* transform: scale(0.5); */
+    /* transform: scale(0.5,2); */
+    transform: scaleX(0.5);
+}
+
+/* Translate => transform:translate(50px,50px), transform:translateX(10px),transform:translateY(10px)   */
+
+#three{
+    /* transform: translate(50px,50px); */
+    transform: translateX(-100px);
+}
+
+/* Skew => transform:skew(30deg); */
+#four{
+    transform: skew(45deg);
+}
+
+#five{
+    transform: rotate(30deg) translateX(150px);
+}

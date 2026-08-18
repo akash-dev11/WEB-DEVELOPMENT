@@ -1,0 +1,16 @@
+/* Alpha Channel => Sets the opacity for a color . range from 0 to 1  */
+
+div{
+    height:  200px;
+    width: 200px;
+    /* background-color: rgb(0, 255, 0,0.5); */
+    background-color: #4dff00ff;
+}
+
+/* Opacity => Sets the opacity for the element. ranges from 0 to 1  */
+#opacity{
+    height:  200px;
+    width: 200px;
+    background-color: #ffa511;
+    opacity: 0.5;
+}

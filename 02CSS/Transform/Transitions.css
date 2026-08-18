@@ -1,0 +1,23 @@
+/* Transitions => Transitions enable you to define the transition between two states of an element.  */ 
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: #4dff00ff;
+    /* transition-duration: 1s;
+    transition-delay: 3s; */
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+
+}
+
+div:hover{
+    /* background-color: black; */
+    /* border-radius: 50%; */
+    margin-top: 400px;
+
+}
+
+/* Shorthand => property name | duration | timing-function | delay  */
+/* transition: margin-top 2s ease-in-out 0.2s  */

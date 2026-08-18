@@ -1,0 +1,17 @@
+ 
+/* Background Image => lets you set an image as a  background  */
+/* background-image : url("../somepath/..img.jpg"); */
+/* background-size: contain/cover/auto; */
+
+div {
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("Background.jpg");
+    /* background-size: contain; */
+    /* background-size: auto; */
+    background-size: cover;
+
+
+}
