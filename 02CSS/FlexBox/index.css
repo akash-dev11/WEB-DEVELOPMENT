@@ -14,13 +14,11 @@
     margin: 10px auto;
     border: 2px solid black;
     display: flex;
-    flex-direction: column-reverse;
-}
-
+    flex-direction: row;          
+} 
 h1 {
     text-align: center;
 }
-
 #container div{
     height: 100px;
     width: 100px;

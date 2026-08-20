@@ -18,13 +18,13 @@ div{
     border-left: 5px solid #000000;
     border-radius: 15px;
     padding-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 h1{
    border: 2px dashed black;
    padding: 2px 3px 4px 5px;
-    margin: 0px;
+    margin: 10px;
 }
 
 /* Border Sides => to control an individual side of the box  */

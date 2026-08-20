@@ -3,9 +3,9 @@
 /* display:inline ,  display:block  */
 
 span{
-    /* background-color: pink; */
+    background-color: pink;
     border: 2px solid black;
-    width: 200px;
+    width: 10px;
     padding: 50px;
     margin: 20px;
 }

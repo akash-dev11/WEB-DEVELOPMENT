@@ -10,8 +10,8 @@ h1{
 }
 
 #outer {
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     background-color: pink;
 }
 
@@ -23,8 +23,8 @@ h1{
 }
 
 #parent{
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     background-color: purple;
     color: white;
     font-size: 10px;

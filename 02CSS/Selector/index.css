@@ -10,7 +10,7 @@ h1,h3{
 
 /* ID Selector => Selects an element based on the value of the element's id attribute. */
 #login{
-    background-color: whitef;
+    background-color: white;
 }
 
 #signup{

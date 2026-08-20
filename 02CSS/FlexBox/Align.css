@@ -27,14 +27,15 @@
     /* flex-wrap:wrap; */
     /* align-items: flex-start; */
     /* align-items: baseline; */
-    /* align-content: flex-start ; */
-    align-content:flex-start ;
-    /* align-self: flex-start; */
+    align-content: flex-start ;
+    /* align-content:flex-end ; */
+    /* align-self: center; */
 
 }
 
 #org{
-    align-self: center;
+    align-self: flex-start;
+    flex-basis: 50px;
 }
 
 h1 {
@@ -42,9 +43,10 @@ h1 {
 }
 
 #container div{
-    height: 100px;
+    height: 10px;
     width: 300px;
     color: white;
     text-align: center;
     font-size: 1.5em;
+    align-items: flex-end;
 }
