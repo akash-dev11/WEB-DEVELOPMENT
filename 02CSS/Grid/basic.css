@@ -1,0 +1,58 @@
+
+.container {
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    /* display: grid; */
+    display: inline-grid;
+    /* grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-columns: auto auto; */
+    grid-template-rows: repeat(3, 1fr);  
+    grid-template-columns: repeat(3,1fr);
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    grid-gap: 10px;
+    /* justify-items: center;
+    align-items: center; */
+    place-items: center;
+}
+
+.item {
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+}
+
+.one {
+    /* grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column: 1/3; */
+    /* grid-column: 1/ span 3; */
+    /* justify-self: end; */
+    /* align-self: start; */
+    place-self: start;
+}
+
+.two {
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    /* grid-row: 1/3; */
+    /* grid-row: 1/ span; */
+}
+
+/* <!-- Grid tempblate => they define the lines & track sizing  --> 
+repeat is used to divide all available space
+*/
+
+/* Grid Gaps => They define the gaps between the lines.
+row-gap : 10px;
+*/
+
+/* Grid Columns => Defines an item's starting & ending position inside the column  */
+
+/* Grid Rows => Defines an item's starting & ending position inside the row  */
+
