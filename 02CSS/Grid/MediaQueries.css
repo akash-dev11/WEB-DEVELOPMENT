@@ -24,3 +24,10 @@ h1 {
         background-color: aqua;
     }
 }
+
+@media (orientation: landscape) {
+    h1 {
+        background-color: aqua;
+    }
+    
+}
