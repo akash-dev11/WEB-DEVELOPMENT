@@ -212,18 +212,18 @@ The learning path is structured from **Web Fundamentals → Full-Stack Developme
 * ✅ HTML Fundamentals
 * ✅ CSS Basics
 * ✅ Responsive Design
-* 🔄 Advanced CSS
-* 🔄 Modern UI Design
+* ✅ Advanced CSS
+* ✅ Modern UI Design
 
 ## ⚡ JavaScript
 
-* 🔄 JavaScript Fundamentals
-* 🔄 Advanced JavaScript
-* 🔄 DOM Manipulation
-* 🔄 Events
-* 🔄 Async JavaScript
-* 🔄 Fetch API
-* 🔄 API Integration
+* ✅ JavaScript Fundamentals
+* ✅ Advanced JavaScript
+* ✅ DOM Manipulation
+* ✅ Events
+* ✅ Async JavaScript
+* ✅ Fetch API
+* ✅ API Integration
 
 ## ⚛️ Frontend
 
@@ -239,8 +239,8 @@ The learning path is structured from **Web Fundamentals → Full-Stack Developme
 
 ## 🖥️ Backend
 
-* 🔄 Node.js
-* 🔄 Express.js
+* ✅ Node.js
+* ✅ Express.js
 * 🔄 REST APIs
 * 🔄 Middleware
 * 🔄 Authentication
@@ -250,9 +250,9 @@ The learning path is structured from **Web Fundamentals → Full-Stack Developme
 
 ## 🗄️ Database
 
-* 🔄 MongoDB
-* 🔄 Mongoose
-* 🔄 MySQL
+* ✅ MongoDB
+* ✅ Mongoose
+* ✅ MySQL
 * 🔄 PostgreSQL
 * 🔄 Database Design
 
@@ -282,7 +282,7 @@ The learning path is structured from **Web Fundamentals → Full-Stack Developme
 
 ## ☁️ Deployment
 
-* 🔄 Git & GitHub
+* ✅ Git & GitHub
 * 🔄 Vercel
 * 🔄 Netlify
 * 🔄 Environment Variables
