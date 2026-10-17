@@ -110,3 +110,17 @@ body {
     background-color: #fe424d !important;
     border: none !important;
 }
+
+/* show page  */
+.show-img {
+    height: 30vh;
+}
+
+.btns {
+    display: flex;
+}
+
+.show-card {
+    padding: 0;
+    padding-right: 0;
+}
