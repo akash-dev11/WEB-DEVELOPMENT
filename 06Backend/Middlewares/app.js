@@ -1,6 +1,8 @@
 
 const express = require("express");
 const app = express();
+const ExpressError = require("./ExpressErr");
+
 
 // app.use((req, res) => {
 //     let { query } = req.query;
@@ -24,8 +26,12 @@ const checkToken =  (req, res, next) => {
     if(token === "giveaccess") {
         next();
     }
-    res.send("ACCESS DENIED");
+    throw new ExpressError(401,"ACCESS DENIED");
 };
+
+// app.get("/wrong", (req, res) => {
+//     abcd = abcd;
+// });
 
 
 app.get("/api", checkToken, (req, res) => {
@@ -40,6 +46,10 @@ app.get("/random", (req, res) => {
     res.send("this is a random page");
 });
 
+app.get("/err", (req, res) => {
+    abcd = abcd;
+});
+
 // logger - morgan
 // app.use((req, res, next) => {
 //     req.time = Date.now();
@@ -47,10 +57,22 @@ app.get("/random", (req, res) => {
 //     next();
 // });
 
-// 404
-app.use((req, res) => {
-    res.status(404).send("Page not found");
+app.get("/admin", (req, res) => {
+    throw new ExpressError(403, "Access to admin is Forbidden");
 });
+
+
+app.use((err, req, res, next) => {
+    let {status =500, message ="Some Error Occured"} = err;
+    res.status(status).send(message);
+});
+
+
+
+// 404
+// app.use((req, res) => {
+//     res.status(404).send("Page not found");
+// });
 
 app.listen(8080, () => {
     console.log("server listening to port 8080");
