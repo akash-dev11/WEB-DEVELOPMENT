@@ -17,7 +17,7 @@ try {
 
 // catch(error) mein error kya hai => error ek error object hota hai.
 try {
-    let x = unknownVariable;
+    let x =10;
 } catch (error) {
     console.log(error.name);
     console.log(error.message);
